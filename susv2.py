@@ -285,16 +285,16 @@ def main():
 
 def login():
     clear()
-    user = "admin"
-    passwd = "admin"
+    user = "ngocdz"
+    passwd = "ngoc123"
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
         print("")
-        print("⚡ Haizzz, you're so cute...")
+        print("⚡ ngu vai lon")
         sys.exit(1)
     elif username == user and password == passwd:
-        print("⚡ Welcome to SUSDDOS C2!")
+        print("⚡ Welcome to v2!")
         time.sleep(0.3)
         ascii_vro()
         main()
